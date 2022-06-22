@@ -11,7 +11,11 @@
 }
 
 .hero #heading h3{
-    color: fff;
+    color: #fff;
+}
+
+#heading h1 {
+    color: #fff;
 }
 
 .hero #heading{
