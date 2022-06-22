@@ -5,15 +5,14 @@ import Head from './components/heading/Head'
 import Home from './components/home/Home'
 
 
+
 const App = () => {
   return (
     <div>
-    
       <Router>
         <Head/>
-       
         <Routes>
-        <Route path="/" component={Home} />
+        <Route exact path="/" element={<Home/>} />
         </Routes>
       </Router>
     </div>
