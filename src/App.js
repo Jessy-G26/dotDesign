@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes ,Route  } from 'react-router-dom'
 import Head from './components/heading/Head'
 import Home from './components/home/Home'
 import About from './components/about/About'
+import ServiceHome from './components/services/ServiceHome'
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/about" element={<About/>} />
+        <Route  path="/service" element={<ServiceHome/>} />
         </Routes>
       </Router>
     </div>
