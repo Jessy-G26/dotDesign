@@ -13,7 +13,7 @@ const Hero = () => {
     <section className="hero">
       <div className="container">
         <div className= " row">
-        <Title subtitle={'Welcome to dotDesign'} title={'Best UI/UX design'}/>
+        <Title title={'Welcome to dotDesign'}/>
           <p>Do you want to work on your product with a team that follows a well-defined design process, meets deadlines, and delivers flawless results?. Our design team is a small design studio within a large software company that can help you create an engaging product quickly and easily.</p>
       
         <div className="button">

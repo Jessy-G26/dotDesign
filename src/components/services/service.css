@@ -1,6 +1,6 @@
 .serviceCard{
-    padding: 30px 0;
-    height: 115vh;
+    padding: 20px 0;
+    height: auto;
     background-color: #f9fbfb;
 
 }
@@ -42,7 +42,10 @@
     margin-top: 20px;
 }
 
-
+.proj-btn i{
+    font-size: 20px;
+    margin-right: 10px;
+}
 
 .serviceCard .sImg{
     padding-bottom: 20px;
@@ -83,4 +86,11 @@
     font-weight: 600;
 }
 
-
+@media screen and (max-width:768px){
+    .grid2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:30px;
+        right: 50px;
+      }
+}

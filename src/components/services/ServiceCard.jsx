@@ -15,7 +15,7 @@ const ServiceCard = () => {
         {serviceCard.map((val)=>{
             return (
             <div className="items">
-                <div className="content flex">
+                <div className="content grid">
                     <div className="left">
                        <div className="img">
                         <img src={service1} alt="" />
@@ -35,7 +35,7 @@ const ServiceCard = () => {
                                     <h6>{details.servicePosition}</h6>
                                 </div>
                                 </div>
-                                <span>{details.priceAll}</span>
+                                
                            </>
                             ))}
                         </div>
@@ -51,9 +51,7 @@ const ServiceCard = () => {
     </div>
    </section>
    
-   <div className="margin">
-   
-</div>
+
    </>
   )
 }

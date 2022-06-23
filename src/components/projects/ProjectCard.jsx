@@ -1,123 +1,60 @@
 import React from 'react'
 import Title from '../home/Title'
-// import { online } from './project'
-import proj1 from '../../img/proj1.jpg'
-import proj2 from '../../img/proj2.png'
 import './project.css'
+import {Swiper,SwiperSlide} from 'swiper/react'
+import SwiperCore, {Navigation,Autoplay} from 'swiper'
+import { online } from './project'
+import {Link} from 'react-router-dom'
 
-export const online =[
-    {
-        id:1,
-        cover:proj1,
-        // hoverCover: "./images/courses/online/o1.1.png",
-        projectName: "UI/UX Design Courses",
-        project: "View Demo",
-      },
-      {
-        id:2,
-        cover: proj2,
-        // hoverCover: "./images/courses/online/o2.1.png",
-        projectName: "Art & Design",
-        project: "view Demo",
-      },
-      {
-        id:1,
-        cover:proj1,
-        // hoverCover: "./images/courses/online/o1.1.png",
-        projectName: "UI/UX Design Courses",
-        project: "View Demo",
-      },
-      {
-        id:2,
-        cover: proj2,
-        // hoverCover: "./images/courses/online/o2.1.png",
-        projectName: "Art & Design",
-        project: "view Demo",
-      },
-      {
-        id:1,
-        cover:proj1,
-        // hoverCover: "./images/courses/online/o1.1.png",
-        projectName: "UI/UX Design Courses",
-        project: "View Demo",
-      },
-      {
-        id:2,
-        cover: proj2,
-        // hoverCover: "./images/courses/online/o2.1.png",
-        projectName: "Art & Design",
-        project: "view Demo",
-      },
-      {
-        id:1,
-        cover:proj1,
-        // hoverCover: "./images/courses/online/o1.1.png",
-        projectName: "UI/UX Design Courses",
-        project: "View Demo",
-      },
-      {
-        id:2,
-        cover: proj2,
-        // hoverCover: "./images/courses/online/o2.1.png",
-        projectName: "Art & Design",
-        project: "view Demo",
-      },
-      {
-        id:1,
-        cover:proj1,
-        // hoverCover: "./images/courses/online/o1.1.png",
-        projectName: "UI/UX Design Courses",
-        project: "View Demo",
-      },
-      {
-        id:2,
-        cover: proj2,
-        // hoverCover: "./images/courses/online/o2.1.png",
-        projectName: "Art & Design",
-        project: "view Demo",
-      },
-      {
-        id:1,
-        cover:proj1,
-        // hoverCover: "./images/courses/online/o1.1.png",
-        projectName: "UI/UX Design Courses",
-        project: "View Demo",
-      },
-      {
-        id:2,
-        cover: proj2,
-        // hoverCover: "./images/courses/online/o2.1.png",
-        projectName: "Art & Design",
-        project: "view Demo",
-      },
-]
+import 'swiper/css';
+
+SwiperCore.use([Navigation]);
+SwiperCore.use([Autoplay]);
+
 
 const ProjectCard = () => {
     
   return (
     <div>
-        <section className="online">
-            <div className="container">
-            <Title subtitle={'Project'} title={'Browse Our Projects '}/>
-            <div className="content grid3">
-                {online.map((val) =>(
-                    <div className="box">
-                         <div className="img">
-                            <img src={val.cover} alt="" />
-                           
-                        </div> 
-                        <h1>{val.projectName}</h1>
-                        <button className='proj-btn'>{val.project}</button>
-                    </div>
-                ))}
+      <div className="container">
+      <Title subtitle={'Projects'} title={'Some of our recents works '}/>
+      <div className="projects_allitems">
+      <Swiper
+        autoplay={{ delay: 2000 }} 
+        spaceBetween={30}
+        slidesPerView={2}
+        navigation
+        breakpoints={
+          {
+            640:{
+                slidesPerView:1,
+            },
+            768:{
+              slidesPerView:2,
 
-                    
-          
+            },
 
-            </div>
-            </div>
-        </section>
+           
+          }
+        }
+      
+      >
+        {online.map((val,index)=>{
+          if(index >= 5) return;
+          return(
+            <SwiperSlide key={val.id}>
+            <Link to="/projects" className='projectItem_img'>
+            <img src={val.cover} alt="" />
+            </Link>
+            </SwiperSlide>
+          )
+        })}
+      </Swiper>
+      </div>
+      </div>
+        
     </div>
+    
   )
 }
 
