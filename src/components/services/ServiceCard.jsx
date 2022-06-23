@@ -9,7 +9,7 @@ import Title from '../home/Title'
 const ServiceCard = () => {
   return (
    <>
-   <section className='serviceCard'>
+   <section id='services'className='serviceCard'>
    <Title subtitle={'Our Services'}/>
     <div className="container grid2">
         {serviceCard.map((val)=>{
@@ -49,6 +49,7 @@ const ServiceCard = () => {
         })}
       
     </div>
+    
    </section>
    
 

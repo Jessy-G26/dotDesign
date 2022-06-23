@@ -1,26 +1,35 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter as Router, Routes ,Route  } from 'react-router-dom'
+import AboutCard from './components/about/AboutCard'
+import Footer from './components/footer/Footer'
 import Head from './components/heading/Head'
-import Home from './components/home/Home'
-import About from './components/about/About'
-import ServiceHome from './components/services/ServiceHome'
-import ProjectHome from './components/projects/ProjectHome'
+import Hero from './components/home/Hero'
+import ProjectCard from './components/projects/ProjectCard'
+import ServiceCard from './components/services/ServiceCard'
+// import Header from './components/heading/Header'
+// import { BrowserRouter as Router, Routes ,Route  } from 'react-router-dom'
+// import Head from './components/heading/Head'
+// import Home from './components/home/Home'
+// import About from './components/about/About'
+// import ServiceHome from './components/services/ServiceHome'
+// import ProjectHome from './components/projects/ProjectHome'
+// import Head from './components/heading/Head'
+// import Home from './components/home/Home'
 
 
 
 const App = () => {
   return (
     <div>
-      <Router>
-        <Head/>
-        <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route exact path="/about" element={<About/>} />
-        <Route  path="/service" element={<ServiceHome/>} />
-        <Route  path="/project" element={<ProjectHome/>} />
-        </Routes>
-      </Router>
+     
+     
+     <Head/>
+     <Hero/>
+      <AboutCard/>
+      <ServiceCard/>
+      <ProjectCard/>
+     <Footer/>
+
     </div>
   )
 }

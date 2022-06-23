@@ -4,7 +4,7 @@ import './project.css'
 import {Swiper,SwiperSlide} from 'swiper/react'
 import SwiperCore, {Navigation,Autoplay} from 'swiper'
 import { online } from './project'
-import {Link} from 'react-router-dom'
+
 
 import 'swiper/css';
 
@@ -16,6 +16,8 @@ const ProjectCard = () => {
     
   return (
     <div>
+      
+       <section id='projects'>
       <div className="container">
       <Title subtitle={'Projects'} title={'Some of our recents works '}/>
       <div className="projects_allitems">
@@ -39,8 +41,8 @@ const ProjectCard = () => {
         }
       
       >
-        {online.map((val,index)=>{
-          if(index >= 5) return;
+        {/* {online.map((val,index)=>{
+          if(index >= 10) return;
           return(
             <SwiperSlide key={val.id}>
             <Link to="/projects" className='projectItem_img'>
@@ -48,11 +50,23 @@ const ProjectCard = () => {
             </Link>
             </SwiperSlide>
           )
+        })} */}
+
+        {online.map((val,index)=>{
+          if(index >= 10) return;
+          return(
+            <SwiperSlide key={val.id}>
+             <div className="projectItem_img">
+              <img src={val.cover} alt="" />
+             </div>
+            </SwiperSlide>
+          )
         })}
       </Swiper>
       </div>
       </div>
-        
+     
+    </section> 
     </div>
     
   )

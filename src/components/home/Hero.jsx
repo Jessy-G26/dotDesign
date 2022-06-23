@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <>
     
-    <section className="hero">
+    <section id='#'className="hero">
       <div className="container">
         <div className= " row">
         <Title title={'Welcome to dotDesign'}/>
@@ -18,11 +18,9 @@ const Hero = () => {
       
         <div className="button">
           <button >
-            GET STARTED NOW <i><BsArrowRightSquare/></i>
+            EXPLORE NOW! <i><BsArrowRightSquare/></i>
           </button>
-          <button className="primary-btn">
-          View Projects <i><BsArrowRightSquare/></i>
-          </button>
+          
      
         </div>
         </div>

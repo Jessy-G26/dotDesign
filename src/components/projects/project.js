@@ -3,6 +3,11 @@ import proj1 from '../../img/proj1.jpg'
 import proj2 from '../../img/proj2.png'
 import proj3 from '../../img/proj3.png'
 import proj4 from '../../img/proj4.png'
+import proj5 from '../../img/one.png'
+import proj6 from '../../img/two.png'
+import proj7 from '../../img/three.png'
+import proj8 from '../../img/four.png'
+
 export const online =[
     {
         id:1,
@@ -32,5 +37,22 @@ export const online =[
         projectName: "KLC HOMES",
         project: "view Demo",
       },
+
+      {
+        id:5,
+        cover:proj5
+      },
+      {
+        id:6,
+        cover:proj6
+      },
+      {
+        id:7,
+        cover:proj7
+      },
+      {
+        id:8,
+        cover:proj8
+      }
       
 ]

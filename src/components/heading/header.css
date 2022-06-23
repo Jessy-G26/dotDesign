@@ -19,10 +19,16 @@
 
 /* header */
 
+
+
 header{
     background-color: rgba(255,255,255,0.2);
-    margin: 0 30px;
-    position: relative;
+    top:0;
+    margin: 30px;
+    
+    position: fixed;
+    width: 95%;
+    
 }
 
 header li{
@@ -73,6 +79,7 @@ header ul li a:hover{
         margin: 0;
         background-color: #52ab98;
         position: relative;
+        width: 100%;
     }
 
     header ul.flex{
