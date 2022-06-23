@@ -12,47 +12,44 @@ export const online =[
     {
         id:1,
         cover:proj1,
-        category:'Eccomerce',
-        projectName: "Furbull Corner",
-        project: "View Demo",
+        demo: 'https://dribbble.com/shots/18502880-Furballs-Corner'
       },
       {
         id:2,
         cover: proj2,
-        category:'Eccomerce',
-        projectName: "Animerch",
-        project: "view Demo",
+        demo: 'https://dribbble.com/shots/18503201-Animerch-ecommerce'
       },
       {
         id:3,
         cover:proj3,
-        category:'e-magazine',
-        projectName: "OnePieceTour",
-        project: "View Demo",
+        demo: 'https://dribbble.com/shots/18503280-Onepiece-Tour'
       },
       {
         id:4,
         cover: proj4,
-        category:'Home Rental',
-        projectName: "KLC HOMES",
-        project: "view Demo",
+        demo: 'https://dribbble.com/shots/18503300-KLC-HOMES'
       },
 
       {
         id:5,
-        cover:proj5
+        cover:proj5,
+        demo: 'https://dribbble.com/shots/18563195-Fitness-E-Magazine'
       },
       {
         id:6,
-        cover:proj6
+        cover:proj6,
+        demo: 'https://dribbble.com/shots/18563220-E-calculator'
       },
       {
         id:7,
-        cover:proj7
+        cover:proj7,
+        demo:'https://dribbble.com/shots/18563249-Patient-Registration-Portal'
       },
       {
         id:8,
-        cover:proj8
-      }
+        cover:proj8,
+        demo:'https://dribbble.com/shots/18563266-My-Coding-Journal'
+      },
+     
       
 ]

@@ -33,14 +33,13 @@ body{
   line-height: 40px;
   border-radius: 50%;
   text-align: center;
-  color:#fff;
+  color:rgb(255, 255, 255);
   transition: 0.5s;
 }
 
 .icon:hover{
   cursor: pointer;
-  background-color: #fff;
-  
+  color: #1eb2a6;
 }
 
 a{
@@ -151,6 +150,11 @@ p{
   .grid, .grid2, .grid3{
     grid-template-columns: repeat(2,fr);
   }
+
+  .grid4{
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
   .margin{
     margin-top:100% ;
   }
@@ -158,6 +162,11 @@ p{
 }
 
 .grid2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:30px;
+}
+.grid4{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap:30px;

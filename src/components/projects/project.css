@@ -78,6 +78,7 @@
     border:3px solid #fff;
 }
 
+
 .projectItem_img img{
     height: 100%;
 }
@@ -110,3 +111,8 @@
     max-width: 100%;
 }
 
+.proj-btn:hover{
+    background-color: #fff;
+    color: #1eb2a6;
+    transition: 0.5s;
+}

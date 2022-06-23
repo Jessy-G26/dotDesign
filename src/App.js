@@ -6,6 +6,7 @@ import Head from './components/heading/Head'
 import Hero from './components/home/Hero'
 import ProjectCard from './components/projects/ProjectCard'
 import ServiceCard from './components/services/ServiceCard'
+import Team from './components/teams/Team'
 // import Header from './components/heading/Header'
 // import { BrowserRouter as Router, Routes ,Route  } from 'react-router-dom'
 // import Head from './components/heading/Head'
@@ -28,7 +29,8 @@ const App = () => {
       <AboutCard/>
       <ServiceCard/>
       <ProjectCard/>
-     <Footer/>
+      <Team/>
+     {/* <Footer/> */}
 
     </div>
   )

@@ -4,8 +4,6 @@ import './project.css'
 import {Swiper,SwiperSlide} from 'swiper/react'
 import SwiperCore, {Navigation,Autoplay} from 'swiper'
 import { online } from './project'
-
-
 import 'swiper/css';
 
 SwiperCore.use([Navigation]);
@@ -22,7 +20,7 @@ const ProjectCard = () => {
       <Title subtitle={'Projects'} title={'Some of our recents works '}/>
       <div className="projects_allitems">
       <Swiper
-        autoplay={{ delay: 2000 }} 
+        autoplay={{ delay: 1000 }} 
         spaceBetween={30}
         slidesPerView={2}
         navigation
@@ -52,13 +50,14 @@ const ProjectCard = () => {
           )
         })} */}
 
-        {online.map((val,index)=>{
+        {online.map((val,index,demo)=>{
           if(index >= 10) return;
           return(
             <SwiperSlide key={val.id}>
              <div className="projectItem_img">
               <img src={val.cover} alt="" />
              </div>
+             <a href={val.demo} target='_blank'><button className='proj-btn'>View Demo</button></a>
             </SwiperSlide>
           )
         })}
