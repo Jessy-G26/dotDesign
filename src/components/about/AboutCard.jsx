@@ -15,6 +15,7 @@ const AboutCard = () => {
             </div>
             <div className="right row">
                 <Title subtitle={'LEARN ANYTHING'} title={'Benefits of UI/UX design you will get '}/>
+              
             <div className="items">
                 {homeAbout.map((val)=>(
                     <div className="item flex">

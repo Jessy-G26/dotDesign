@@ -1,7 +1,11 @@
 .abouthome{
     height: auto;
+    
+    
 }
-
+.abouthome h1{
+    font-weight: 600;
+}
 .abouthome #heading{
     text-align: left;
     padding: 0;
@@ -15,6 +19,7 @@
 
 .abouthome .right{
     padding: 80px 50px;
+   
 }
 
 .abouthome .items{
@@ -56,6 +61,12 @@
     .abouthome .row{
         width: 100%;
     }
+
+    .abouthome .left img{
+        display: none;
+    }
+
+   
 
 }
 

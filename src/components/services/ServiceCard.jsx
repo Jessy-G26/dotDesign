@@ -3,12 +3,15 @@ import { serviceCard } from './serviceDum'
 import service1 from '../../img/s1.webp'
 import service2 from '../../img/s2.JPG'
 import './service.css'
+import Title from '../home/Title'
+
 
 const ServiceCard = () => {
   return (
    <>
    <section className='serviceCard'>
-    <div className="container gridCon">
+   <Title subtitle={'Our Services'}/>
+    <div className="container grid2">
         {serviceCard.map((val)=>{
             return (
             <div className="items">
@@ -39,13 +42,18 @@ const ServiceCard = () => {
                     </div>
                 </div>
              
-                <button className='outline-btn'>Contact</button>
+                <button className='outline-btn'>Let's Talk </button>
             </div>
+            
               )
         })}
       
     </div>
    </section>
+   
+   <div className="margin">
+   
+</div>
    </>
   )
 }

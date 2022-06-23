@@ -1,7 +1,7 @@
 export const  serviceCard =[
     {
         id:1,
-        serviceName:"Mobile app Ux and UI design Services ",
+        serviceName:"Mobile design Services ",
         serviceTeam:[
             {
                 name:"By Jessica Gutierrez",
@@ -40,7 +40,7 @@ export const  serviceCard =[
     },
     {
         id:1,
-        serviceName:"Cross-platform experience design ",
+        serviceName:"platform design ",
         serviceTeam:[
             {
                 name:"By Jessica Gutierrez",

@@ -5,6 +5,7 @@ import Head from './components/heading/Head'
 import Home from './components/home/Home'
 import About from './components/about/About'
 import ServiceHome from './components/services/ServiceHome'
+import ProjectHome from './components/projects/ProjectHome'
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/about" element={<About/>} />
         <Route  path="/service" element={<ServiceHome/>} />
+        <Route  path="/project" element={<ProjectHome/>} />
         </Routes>
       </Router>
     </div>
