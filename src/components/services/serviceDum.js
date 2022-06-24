@@ -69,7 +69,7 @@ export const  serviceCard =[
     },
     {
         id:1,
-        serviceName:"Web design services",
+        serviceName:"Web design",
         serviceTeam:[
             {
                 name:"By Jessica Gutierrez",
