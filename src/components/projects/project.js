@@ -7,6 +7,7 @@ import proj5 from '../../img/one.png'
 import proj6 from '../../img/two.png'
 import proj7 from '../../img/three.png'
 import proj8 from '../../img/four.png'
+import proj9 from '../../img/animemizu.png'
 
 export const online =[
     {
@@ -49,6 +50,11 @@ export const online =[
         id:8,
         cover:proj8,
         demo:'https://dribbble.com/shots/18563266-My-Coding-Journal'
+      },
+      {
+        id:9,
+        cover:proj9,
+        demo:'https://dribbble.com/shots/18570756-AnimeMizu'
       },
      
       

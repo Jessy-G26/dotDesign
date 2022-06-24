@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <div className='dTeams'>
         <section id='teams'className="team padding">
-        <Title subtitle={'Team dotDesign.'} title={'Meet Our Team '}/>
+        <Title subtitle={'Team dotDesign.'} Mtitle={'Meet Our Team '}/>
             <div className="container grid4">
                 <TeamCard/>
             </div>

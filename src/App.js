@@ -4,9 +4,11 @@ import AboutCard from './components/about/AboutCard'
 import Footer from './components/footer/Footer'
 import Head from './components/heading/Head'
 import Hero from './components/home/Hero'
+import Price from './components/pricing/Price'
 import ProjectCard from './components/projects/ProjectCard'
 import ServiceCard from './components/services/ServiceCard'
 import Team from './components/teams/Team'
+import Test from './components/testimonial/Test'
 // import Header from './components/heading/Header'
 // import { BrowserRouter as Router, Routes ,Route  } from 'react-router-dom'
 // import Head from './components/heading/Head'
@@ -30,6 +32,8 @@ const App = () => {
       <ServiceCard/>
       <ProjectCard/>
       <Team/>
+      <Test/>
+      <Price/>
      {/* <Footer/> */}
 
     </div>
