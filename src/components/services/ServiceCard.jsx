@@ -1,7 +1,7 @@
 import React from 'react'
 import { serviceCard } from './serviceDum'
 import service1 from '../../img/s1.webp'
-import service2 from '../../img/s2.JPG'
+import service2 from '../../img/jessica.jpg'
 import './service.css'
 import Title from '../home/Title'
 
