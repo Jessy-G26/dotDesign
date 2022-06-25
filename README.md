@@ -13,7 +13,7 @@ Our Project is a UI/UX Design Website. The main goal of the dotdesign is to offe
   
 1. Clone Github repository
     ```
-    git clone https://
+    git clone https://github.com/Jessy-G26/dotDesign.git
     ```
 2. Install npm dependencies
     ```
@@ -42,7 +42,7 @@ Our Project is a UI/UX Design Website. The main goal of the dotdesign is to offe
   <img src='./DocumentImage/about.png'>
 * Contacts
  <img src='./DocumentImage/contactus.png'>
-* footer - used MUI Box, Container, and Link to format. Added hover effect using css
+* footer - used MUI Box, Container, and Link to format. Added hover effect using css.
   <img src='./DocumentImage/footer.png'>
 * heading
   <img src='./DocumentImage/nav.png'>
