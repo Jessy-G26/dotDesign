@@ -39,28 +39,28 @@ Our Project is a UI/UX Design Website. The main goal of the dotdesign is to offe
 
 `src/components` - contains the pages of the project
 * about
-  <img src='./DocumentImage/about.png'>
+    <img src='./DocumentImage/about.png'>
 * Contacts
- <img src='./DocumentImage/contactus.png'>
+    <img src='./DocumentImage/contactus.png'>
 * footer - used MUI Box, Container, and Link to format. Added hover effect using css.
-  <img src='./DocumentImage/footer.png'>
+    <img src='./DocumentImage/footer.png'>
 * heading
-  <img src='./DocumentImage/nav.png'>
-  <img src='./DocumentImage/nav2.png'>
+    <img src='./DocumentImage/nav.png'>
+    <img src='./DocumentImage/nav2.png'>
 * home
-  <img src='./DocumentImage/home.png'>
+    <img src='./DocumentImage/home.png'>
 * icons
-  <img src=''>
+    <img src=''>
 * pricing
-  <img src='./DocumentImage/pricing.png'>
+    <img src='./DocumentImage/pricing.png'>
 * projects
-  <img src='./DocumentImage/projects.png'>
+    <img src='./DocumentImage/projects.png'>
 * services
-  <img src='./DocumentImage/projects.png'>
+    <img src='./DocumentImage/projects.png'>
 * teams
-  <img src='./DocumentImage/team.png'>
+     <img src='./DocumentImage/team.png'>
 * testimonials
- <img src='./DocumentImage/testi.png'>
+    <img src='./DocumentImage/testi.png'>
 
 `src/img` - contains images used in the project
 
