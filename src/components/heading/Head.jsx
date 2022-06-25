@@ -18,7 +18,8 @@ const Head = () => {
               
             </ul>
             <div className="start">
-                <div className="button">Contact Us</div>
+            <a href="#contact"  onClick={()=> setActiveNav('#contact')}className={activeNav === '#contact' ? 'active' : ''}><div className="button">Contact Us</div></a>
+                
             </div>
             <button className="toggle" onClick={()=> setClick(!click)}>
                 {click ? <BiExit/> : <AiOutlineMenu/> }

@@ -4,7 +4,7 @@ import {AiFillFacebook} from 'react-icons/ai'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiOutlineGithub} from 'react-icons/ai'
-import Title from '../home/Title'
+// import Title from '../home/Title'
 import "./Team.css"
 const TeamCard = () => {
   return (
