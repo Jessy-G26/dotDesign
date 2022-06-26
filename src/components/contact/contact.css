@@ -107,3 +107,8 @@ textarea {
     font-size: 30px;
     padding-right: 150px;
 }
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    
+}
