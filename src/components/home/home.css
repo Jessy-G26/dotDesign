@@ -35,7 +35,7 @@
     padding: 0;
 }
 
-
+/* 
 @media screen and (max-width:768px) {
     .margin{
         height: 40vh;
@@ -51,4 +51,48 @@
     .hero .row{
         width: 100%;
     }
+} */
+
+
+/*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
+
+@media screen and (max-width:1024px){
+    .margin{
+        height: 10vh;
+    }
+
+    .hero{
+        background-position: left;
+        padding-top: 10%;
+        height: 100vh;
+       
+    }
+    .hero .row{
+        width: 100%;
+    }
+
+}
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+@media screen and (max-width:600px){
+   
+    .margin{
+        height: 40vh;
+    }
+
+    .hero{
+        background-position: left;
+        padding-top: 20%;
+        height: 100vh;
+       
+    }
+
+    .hero .row{
+        width: 100%;
+    }
+
+    .hero .row p {
+        display: none;
+    }
+
 }

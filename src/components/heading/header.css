@@ -74,8 +74,8 @@ header ul li a:hover{
     display: none;
     background-color: #2b6777;
 }
-
-@media screen and (max-width:756px) {
+/* 
+@media screen and (max-width:600px) {
     .start{
         clip-path: none;
     }
@@ -113,4 +113,90 @@ header ul li a:hover{
         background-color: #52ab98;
     }
 }
+ */
 
+
+ 
+@media screen and (max-width:1024px){
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #52ab98;
+        position: relative;
+        width: 100%;
+    }
+
+    header ul.flex{
+        display: none;
+    }
+
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display:block;
+        background-color: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top:-20px;
+    }
+
+    .mobile-nav{
+    
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #52ab98;
+    }
+
+}
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+@media screen and (max-width:600px){
+   
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #52ab98;
+        position: relative;
+        width: 100%;
+        margin-right: 4rem;
+    }
+
+    header ul.flex{
+        display: none;
+    }
+
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display:block;
+        background-color: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top:-20px;
+    }
+
+    .mobile-nav{
+    
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #52ab98;
+    }
+
+
+}

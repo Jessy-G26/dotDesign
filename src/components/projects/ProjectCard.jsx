@@ -26,10 +26,10 @@ const ProjectCard = () => {
         navigation
         breakpoints={
           {
-            640:{
+            600:{
                 slidesPerView:1,
             },
-            768:{
+            1024:{
               slidesPerView:2,
 
             },
