@@ -116,7 +116,7 @@ header ul li a:hover{
  */
 
 
- 
+/*  
 @media screen and (max-width:1024px){
     .start{
         clip-path: none;
@@ -155,10 +155,131 @@ header ul li a:hover{
         background-color: #52ab98;
     }
 
-}
+} */
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #52ab98;
+        position: relative;
+        width: 130%;
+    }
+
+    header ul.flex{
+        display: none;
+    }
+
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display:block;
+        background-color: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top:-20px;
+    }
+
+    .mobile-nav{
+    
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #52ab98;
+    }
+ }
 /*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
 
-@media screen and (max-width:600px){
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #52ab98;
+        position: relative;
+        width: 180%;
+        margin-right: 4rem;
+    }
+
+    header ul.flex{
+        display: none;
+    }
+
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display:block;
+        background-color: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top:-20px;
+    }
+
+    .mobile-nav{
+    
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #52ab98;
+    }
+ }
+
+
+ @media all and (max-width: 480px) {
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #52ab98;
+        position: relative;
+        width: 180%;
+        margin-right: 4rem;
+    }
+
+    header ul.flex{
+        display: none;
+    }
+
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display:block;
+        background-color: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top:-20px;
+    }
+
+    .mobile-nav{
+    
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #52ab98;
+    }
+  }
+
+/* @media screen and (max-width:600px){
    
     .start{
         clip-path: none;
@@ -199,4 +320,4 @@ header ul li a:hover{
     }
 
 
-}
+} */

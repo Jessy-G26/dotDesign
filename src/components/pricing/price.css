@@ -24,3 +24,23 @@
     color: grey;
     margin: 40px 0;
 }
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+    .price{
+        width: 130%;
+    }
+ }
+
+@media all and (max-width: 480px) { 
+
+    .price{
+        width: 180%;
+    }
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .price{
+        width: 180%;
+    }
+ }

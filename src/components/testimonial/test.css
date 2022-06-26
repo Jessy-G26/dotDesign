@@ -45,5 +45,16 @@
     color: #fff;
 }
 
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .testimonal .items{
+        padding:30px;
+        transition:0.5s ;
+    }
+    
+    .testimonal .img{
+        position: relative;
+    }
 
+    
+}
 

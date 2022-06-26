@@ -55,7 +55,7 @@
 
 
 /*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
-
+/* 
 @media screen and (max-width:1024px){
     .margin{
         height: 10vh;
@@ -71,10 +71,71 @@
         width: 100%;
     }
 
-}
+} */
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .margin{
+        height: 20vh;
+    }
+
+    .hero{
+        background-position:left;
+        padding-top: 10%;
+        height: 120vh;
+       
+    }
+    .hero .row{
+        width: 100%;
+    }
+
+   
+ }
+
+
+ @media all and (min-width: 480px) and (max-width: 768px) {
+    .margin{
+        height: 5vh;
+    }
+
+    .hero{
+        background-position:left;
+        padding-top: 10%;
+        height: 10vh;
+       
+    }
+    .hero .row{
+        width: 100%;
+    }
+  }
+
+
+  @media all and (max-width: 480px) {
+    .margin{
+        height: 20vh;
+    }
+
+    .hero{
+        background-position: left;
+        padding-top: 20%;
+        height: 100vh;
+       
+    }
+
+    .hero .row{
+        width: 100%;
+    }
+
+    
+   }
+
+
+
+
+
+
 /*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
 
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
    
     .margin{
         height: 40vh;
@@ -95,4 +156,4 @@
         display: none;
     }
 
-}
+} */

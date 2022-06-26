@@ -69,17 +69,28 @@
 
 /*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
 
-@media screen and (max-width:1024px){
-  
+
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+@media all and (max-width: 480px) { 
+        .container #heading h1{
+            font-size: 24px;
+            text-align: center;
+            margin-left:50%;
+        }
+
+        .container #heading h3{
+            margin-left:50%;
+        }
+
+        .container .grid2{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    
+      
 
 }
-/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
 
-@media screen and (max-width:600px){
-   
-    
-        
-    }
 
     /* .projectItem_img{
         width:100%;
