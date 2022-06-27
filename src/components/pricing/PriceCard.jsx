@@ -4,19 +4,19 @@ import "./price.css"
 const PriceCard = () => {
      const price =[
         {
-            key:1,
+            id:1,
             name:'BASIC PLAN',
             Prices: "1,000",
             desc:'1 Screen Website/Mobile UI UX. 2 Days Delivery, 1 pages/screens, 1 Custom assets, Responsive design with Source File.'
         },
         {
-            key:2,
+            id:2,
             name:'STANDARD PLAN',
             Prices: "3,000",
             desc:'4 Screen Website/Mobile UI UX.  7 Days Delivery, 7 pages/screens, 2 Custom assets, Responsive design with Source File.'
         },
         {
-            key:3,
+            id:3,
             name:'PREMIUM PLAN',
             Prices: "5,000",
             desc:'7 Screen Website/Mobile UI UX. 10 Days Delivery, 7 pages/screens, 3 Custom assets, Responsive design with Source File.'
@@ -26,7 +26,7 @@ const PriceCard = () => {
    <>
     
     {price.map((val)=>(
-        <div className="items shadow">
+        <div key={val.id} className="items shadow">
             <h4>{val.name}</h4>
             <h1><span>₱</span>
                 {val.Prices}

@@ -22,7 +22,7 @@ const ServiceCard = () => {
         },
     
         {
-            id:1,
+            id:2,
             serviceName:"UI and UX consulting",
             serviceTeam:[
                 {
@@ -34,7 +34,7 @@ const ServiceCard = () => {
             
         },
         {
-            id:1,
+            id:3,
             serviceName:"AR experience design ",
             serviceTeam:[
                 {
@@ -48,7 +48,7 @@ const ServiceCard = () => {
           
         },
         {
-            id:1,
+            id:4,
             serviceName:"platform design ",
             serviceTeam:[
                 {
@@ -63,7 +63,7 @@ const ServiceCard = () => {
         },
         
         {
-            id:1,
+            id:5,
             serviceName:"Design workshop",
             serviceTeam:[
                 {
@@ -77,7 +77,7 @@ const ServiceCard = () => {
           
         },
         {
-            id:1,
+            id:6,
             serviceName:"Web design",
             serviceTeam:[
                 {
@@ -89,7 +89,7 @@ const ServiceCard = () => {
     
             
           
-        },
+        }
     ]
   return (
    <>
@@ -98,17 +98,17 @@ const ServiceCard = () => {
     <div className="container grid2">
         {serviceCard.map((val)=>{
             return (
-            <div className="items">
+            <div key={val.id} className="items" >
                 <div className="content grid">
-                    <div className="left">
+                    <div  className="left">
                        <div className="img">
                         <img src={service1} alt="" />
                        </div>
                     </div>
-                    <div className="text">
+                    <div  className="text">
                         <h1>{val.serviceName}</h1>
-                        <div className="details">
-                            {val.serviceTeam.map((details)=>(
+                         <div className="details">
+                            {/* {val.serviceTeam.map((details)=>(
                                <>
                                <div className="box">
                                 <div className="sImg">
@@ -121,7 +121,7 @@ const ServiceCard = () => {
                                 </div>
                                 
                            </>
-                            ))}
+                            ))} */}
                         </div>
                     </div>
                 </div>

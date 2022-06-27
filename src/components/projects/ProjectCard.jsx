@@ -116,7 +116,7 @@ const ProjectCard = () => {
           )
         })} */}
 
-        {online.map((val,index,demo)=>{
+        {online.map((val,index,demo)=>{   
           if(index >= 10) return;
           return(
             <SwiperSlide key={val.id}>
@@ -128,7 +128,7 @@ const ProjectCard = () => {
           )
         })}
 
-      
+
 
       
       </Swiper>
