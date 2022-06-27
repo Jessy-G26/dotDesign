@@ -31,7 +31,7 @@ const PriceCard = () => {
             <h1><span>₱</span>
                 {val.Prices}
             </h1>
-            <p>{val.desc}</p>
+            <ul>{val.desc}</ul>
             <button className='outline-btn'>GET STARTED NOW</button>
         </div>
     ))}
