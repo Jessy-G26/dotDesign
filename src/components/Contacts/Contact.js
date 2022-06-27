@@ -29,6 +29,9 @@ const Contact = () => {
     setAllInfo([...allInfo, information]);
     if (email !== "" && message !== "") {
       notify(true);
+      setName("");
+      setEmail("");
+      setMessage("");
     }
     emailjs
       .sendForm(
