@@ -97,113 +97,30 @@
 
 
 
-
 /*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
 
-/* @media screen and (max-width:1024px){
-    .grid2{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap:30px;
-        right: 50px;
-      }
-
-} */
-
-
-
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-    .grid2{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap:30px;
-        right: 50px;
-      }
-
-      .serviceCard .items{
-        background-color: #fff;
-        padding: 30px;
-        text-align: center;
-        margin-right: 10%;
-        
-        
+@media screen and (max-width:1024px){
+    .serviceCard .img{
+        display: none;
     }
-
-    .serviceCard{
-        width: 130%;
-        margin-right: 10%;
-    }
-
-    
-
-      }
-
-
-
-
-      @media all and (min-width: 480px) and (max-width: 768px) {
-        .grid2{
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap:30px;
-            right: 50px;
-          }
-    
-          .serviceCard .items{
-            background-color: #fff;
-            padding: 30px;
-            text-align: center;
-            
-            
-        }
-    
-        .serviceCard{
-            width: 180%;
-        }
-       }
-
-
-       @media all and (max-width: 480px) {
-        .grid2{
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap:30px;
-            right: 50px;
-          }
-    
-          .serviceCard .items{
-            background-color: #fff;
-            padding: 30px;
-            text-align: center;
-            
-            
-        }
-    
-        .serviceCard{
-            width: 180%;
-        }
-        }
-
- 
- 
-
-
+}
 /*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
-/* 
+
 @media screen and (max-width:600px){
-   
-    .grid2{
+    .serviceCard .grid2{
+        padding: 20px 0;
+        height: auto;
+        background-color: #ffffff;
         display: grid;
-        grid-template-columns:1fr;
-        grid: gap 10px;
-        right: 50px;
-      }
+        grid-template-columns: 1fr;  
+    }
 
-      .serviceCard .items{
-        padding: 30px;
-        margin-left: 10px;
-      }
 
-      
-} */
+    .serviceCard .img{
+        display: none;
+    }
+
+
+   
+}
+

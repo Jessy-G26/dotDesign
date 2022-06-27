@@ -71,7 +71,7 @@
         width: 100%;
     }
 } */
-
+/* 
 @media all and (min-width: 768px) and (max-width: 1024px) { 
 
     .contacts{
@@ -116,3 +116,44 @@
         width: 180%;
     }
  }
+ */
+
+ /*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
+
+@media screen and (max-width:1024px){
+    .contacts{
+        width: 100%;
+    }
+    .contacts .container{
+        flex-direction: column;
+
+    }
+
+    .contacts iframe{
+        height: 50vh;
+    }
+
+    .contacts .row{
+        width: 100%;
+    }
+}
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+@media screen and (max-width:600px){
+    .contacts{
+        width: 100%;
+    }
+    .contacts .container{
+        flex-direction: column;
+
+    }
+
+    .contacts iframe{
+        height: 50vh;
+    }
+
+    .contacts .row{
+        width: 100%;
+    }
+
+}
