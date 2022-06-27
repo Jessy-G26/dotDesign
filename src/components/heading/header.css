@@ -198,7 +198,7 @@ header ul li a:hover{
  }
 /*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
 
-@media all and (min-width: 480px) and (max-width: 768px) {
+/* @media all and (min-width: 480px) and (max-width: 768px) {
     .start{
         clip-path: none;
     }
@@ -277,7 +277,7 @@ header ul li a:hover{
         width: 100%;
         background-color: #52ab98;
     }
-  }
+  } */
 
 /* @media screen and (max-width:600px){
    
@@ -321,3 +321,177 @@ header ul li a:hover{
 
 
 } */
+
+
+/* 
+@media screen and (max-width:768px){
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #52ab98;
+        position: relative;
+        width: 100%;
+    }
+
+    header ul.flex{
+        display: none;
+    }
+
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display:block;
+        background-color: none;
+        color: #fff;
+        font-size: px;
+        position: absolute;
+        right: 20px;
+        top:-20px;
+    }
+
+    .mobile-nav{
+    
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #52ab98;
+    }
+
+
+    
+}
+
+
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+/* @media screen and (max-width:480px){
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #52ab98;
+        position: relative;
+        width: 180%;
+        margin-right: 4rem;
+    }
+
+    header ul.flex{
+        display: none;
+    }
+
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display:block;
+        background-color: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top:-20px;
+    }
+
+    .mobile-nav{
+    
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #52ab98;
+    }
+} */ 
+
+
+
+/*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
+
+@media screen and (max-width:1024px){
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #52ab98;
+        position: relative;
+        width: 100%;
+    }
+
+    header ul.flex{
+        display: none;
+    }
+
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display:block;
+        background-color: none;
+        color: #fff;
+        height: 80%;
+        position: absolute;
+        right: 20px;
+        top:-20px;
+    }
+
+    .mobile-nav{
+    
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #52ab98;
+    }
+
+}
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+@media screen and (max-width:600px){
+   
+    .start{
+        clip-path: none;
+    }
+
+    header{
+        margin: 0;
+        background-color: #52ab98;
+        position: relative;
+        width: 100%;
+        margin-right: 4rem;
+    }
+
+    header ul.flex{
+        display: none;
+    }
+
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display:block;
+        background-color: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: -1px;
+        top:-20px;
+    }
+
+    .mobile-nav{
+    
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #52ab98;
+    }
+
+}

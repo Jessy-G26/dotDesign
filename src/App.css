@@ -156,7 +156,7 @@ p{
     height: 80vh;
   }
 
-  .grid, .grid2, .grid3{
+  /* .grid, .grid2, .grid3{
     grid-template-columns: repeat(2,fr);
   }
 
@@ -166,7 +166,7 @@ p{
   }
   .margin{
     margin-top:100% ;
-  }
+  } */
   
 }
 

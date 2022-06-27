@@ -51,163 +51,71 @@
     box-shadow: 0 5px 25px -2px rgb(0 0 0 /6%);
 }
 
+
 /* @media screen and (max-width:768px) {
     .abouthome{
-         margin-top: -50%;
+        margin-top:-80%;
     }
     .abouthome .container{
         flex-direction: column-reverse;
     }
+
     .abouthome .row{
         width: 100%;
     }
 
-    .abouthome .left img{
-        display: none;
-    }
-
-
-}  */
-
-
-@media all and (min-width: 768px) and (max-width: 1024px) { 
-    .abouthome{
-        margin-top:-10%;
-   }
-   .abouthome .container{
-       flex-direction: column-reverse;
-       margin-left: 20px;
-   }
-   .abouthome .row{
-       width: 100%;
+  .left img{
+    display: none;
    }
 
-   .abouthome .left img{
-       display: none;
-   }
 
-}
+} */
 
-@media all and (min-width: 480px) and (max-width: 768px) {
-    .abouthome{
-        margin-top:-10%;
-   }
-   .abouthome .container{
-       flex-direction: column-reverse;
-       margin-right: 10px;
-   }
-   .abouthome .row{
-       width: 100%;
-   }
-
-   .abouthome .left img{
-       display: none;
-   }
- }
-
- @media all and (max-width: 480px) {
-    .abouthome{
-        margin-top:-10%;
-   }
-   .abouthome .container{
-       display: grid;
-       margin-right: 10px;
-   }
-   .abouthome .row{
-    width: 170%;
-   }
-
-   .abouthome .left img{
-       display: none;
-   }
-  }
 
 
 /*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
 
-/* @media screen and (max-width:1024px){
+@media screen and (max-width:1024px){
     .abouthome{
-        margin-top:-20%;
-        margin-right: 5%;
+        margin-top:-10%;
+    }
+    .abouthome .container{
+        flex-direction: column-reverse;
+    }
+
+    .abouthome .row{
+        width: 100%;
+        
+    }
+
+  .left img{
+    display: none;
    }
-   .abouthome .container{
-       flex-direction: column-reverse;
-   }
-   .abouthome .row{
-       width: 100%;
-   }
-
-   .abouthome .left img{
-       display: none;
-   }
-
-   
-
- */
-
-
- /* @media all and (min-width: 768px) and (max-width: 1024px) {
-    .abouthome{
-        margin-top:-55%;
-        margin-right: 5%;
-   }
-   .abouthome .container{
-       flex-direction: column-reverse;
-   }
-   .abouthome .row{
-       width: 100%;
-   }
-
-   .abouthome .left img{
-       display: none;
-   }
- } */
-
-
-
-
+}
 /*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
-/* 
+
 @media screen and (max-width:600px){
    
     .abouthome{
-        margin-top:-130%;
-        margin-right: -5%;
-   }
-   .abouthome .container{
-      display: grid;
-      grid-template-columns: 1fr;
-   }
-   .abouthome .row{
-       width: 100%;
-       height: 50%;
-   }
+        margin-top:-10%;
 
-   .abouthome .left img{
-       display: none;
-   }
-   .abouthome #heading{
+    }
+    .abouthome .container{
+     flex-direction: column-reverse;
+        
+    }
+
+    .abouthome .row .items{
+        width: 100%;
+        display: grid;
+        margin-left:-30px;
+        font-size: 12px;
+       
+    }
+
+   
+  .left img{
     display: none;
    }
-
-   .abouthome .item{
-    background-color: #fff;
-    margin-top: 30px;
-    padding: 5px;
-    transition: 0.5s;
-    
-   }
-
-   .abouthome .items .item .text{
-    font-size:12px;
-   }
-
 }
-
-.abouthome .img{
-   display: grid;
-   grid-template-columns: 1fr;
-   
-} */
-
 

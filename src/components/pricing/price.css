@@ -24,7 +24,7 @@
     color: grey;
     margin: 40px 0;
 }
-@media all and (min-width: 768px) and (max-width: 1024px) {
+/* @media all and (min-width: 768px) and (max-width: 1024px) {
 
     .price{
         width: 130%;
@@ -43,4 +43,26 @@
     .price{
         width: 180%;
     }
- }
+ } */
+
+
+ /*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
+
+@media screen and (max-width:1024px){
+    .price .grid2{
+        display: grid;
+        grid-template-columns: 2fr;
+       }
+}
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+@media screen and (max-width:600px){
+   .price .grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+
+   
+}
+
+ 

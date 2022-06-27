@@ -1,115 +1,55 @@
-/* .online{
-    text-align: center;
-   
-}
-
-.online .box{
-    box-shadow: 0 5px 25px -2px rgba(0 0 0 /6%);
-    background-color: #fff;
-    padding: 30px 20px;
-    transition: 0.5s;
-}
-
-.online .img{
-    width:100%;
-    height: 80px;
-    margin:0;
-    position: relative;
-}
-
-.online img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-
-.online h1{
-    font-weight: 500;
-    font-size: 20px;
-    margin: 20px 0;
-    line-height: 30px;
-}
-
-.online button{
-    background-color: #1eb2a6;
-    padding: 5px 20px;
-    font-weight: 500;
-    font-size: 15px;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.online button:hover{
-    background-color: #fff;
-    color: #1eb2a6;
-}
-
-.online .box:hover{
-    background-color: #1eb2a6;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-
-.online .box:hover h1{
-    color:#fff
-} */
-
-/* @media screen and (max-width:768px) {
-    .grid3{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap:30px;
-        
-    }
-} */
 
 
 /*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
 
-
-/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
-@media all and (max-width: 480px) { 
-        .container #heading h1{
-            font-size: 24px;
-            text-align: center;
-            margin-left:50%;
-        }
-
-        .container #heading h3{
-            margin-left:50%;
-        }
-
-        .container .grid2{
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-    
-      
-
+@media screen and (max-width:1024px){
+  
 }
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+@media screen and (max-width:600px){
+    .container #heading h1{
+        font-size: 24px;
+        text-align: center;
+        margin-left:50%;
+    }
+
+    .container #heading h3{
+        margin-left:50%;
+    }
+
+    .container .grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
 
-    /* .projectItem_img{
+    .projects_allitems .projectItem_img{
         width:100%;
-        height:400px;
+        height:100px;
         overflow:hidden;
         border-radius:12px;
         display:inline-block;
         border:3px solid #fff;
     }
-    
-    
-    .projectItem_img img{
-        height: 50%;
+
+    .container #heading h3 {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .container #heading h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 20px;
     }
 
-    .proj-btn{
-        font-size: 12px;
-    } */
- 
+    .proj-btn {
+        display: none;
+    }
+   
+}
+
+
 
 
 
