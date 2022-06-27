@@ -1,5 +1,5 @@
 import React from 'react'
-import { serviceCard } from './serviceDum'
+// import { serviceCard } from './serviceDum'
 import service1 from '../../img/s1.webp'
 import service2 from '../../img/jessica.jpg'
 import './service.css'
@@ -7,6 +7,90 @@ import Title from '../home/Title'
 
 
 const ServiceCard = () => {
+   const  serviceCard =[
+        {
+            id:1,
+            serviceName:"Mobile design Services ",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                 
+                },
+            ],
+           
+        },
+    
+        {
+            id:2,
+            serviceName:"UI and UX consulting",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                   
+                },
+            ],
+            
+        },
+        {
+            id:3,
+            serviceName:"AR experience design ",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                    
+                },
+            ],
+    
+            
+          
+        },
+        {
+            id:4,
+            serviceName:"platform design ",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                    
+                },
+            ],
+    
+            
+          
+        },
+        
+        {
+            id:5,
+            serviceName:"Design workshop",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                    
+                },
+            ],
+    
+            
+          
+        },
+        {
+            id:6,
+            serviceName:"Web design",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                    
+                },
+            ],
+    
+            
+          
+        }
+    ]
   return (
    <>
    <section id='services'className='serviceCard'>
@@ -14,17 +98,17 @@ const ServiceCard = () => {
     <div className="container grid2">
         {serviceCard.map((val)=>{
             return (
-            <div className="items">
+            <div key={val.id} className="items" >
                 <div className="content grid">
-                    <div className="left">
+                    <div  className="left">
                        <div className="img">
                         <img src={service1} alt="" />
                        </div>
                     </div>
-                    <div className="text">
+                    <div  className="text">
                         <h1>{val.serviceName}</h1>
-                        <div className="details">
-                            {val.serviceTeam.map((details)=>(
+                         <div className="details">
+                            {/* {val.serviceTeam.map((details)=>(
                                <>
                                <div className="box">
                                 <div className="sImg">
@@ -37,7 +121,7 @@ const ServiceCard = () => {
                                 </div>
                                 
                            </>
-                            ))}
+                            ))} */}
                         </div>
                     </div>
                 </div>

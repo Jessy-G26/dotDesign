@@ -97,7 +97,7 @@
 @media screen and (max-width:600px){
    
     .abouthome{
-        margin-top:-10%;
+        margin-top:-30%;
 
     }
     .abouthome .container{
@@ -111,6 +111,15 @@
         margin-left:-30px;
         font-size: 12px;
        
+    }
+
+    .abouthome .right #heading h3{
+        font-size: 12px;
+        text-align: center;
+    }
+    .abouthome .right #heading h1{
+        font-size: 25px;
+        text-align: center;
     }
 
    
