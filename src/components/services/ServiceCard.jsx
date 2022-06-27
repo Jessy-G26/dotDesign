@@ -1,5 +1,5 @@
 import React from 'react'
-import { serviceCard } from './serviceDum'
+// import { serviceCard } from './serviceDum'
 import service1 from '../../img/s1.webp'
 import service2 from '../../img/jessica.jpg'
 import './service.css'
@@ -7,6 +7,90 @@ import Title from '../home/Title'
 
 
 const ServiceCard = () => {
+   const  serviceCard =[
+        {
+            id:1,
+            serviceName:"Mobile design Services ",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                 
+                },
+            ],
+           
+        },
+    
+        {
+            id:1,
+            serviceName:"UI and UX consulting",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                   
+                },
+            ],
+            
+        },
+        {
+            id:1,
+            serviceName:"AR experience design ",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                    
+                },
+            ],
+    
+            
+          
+        },
+        {
+            id:1,
+            serviceName:"platform design ",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                    
+                },
+            ],
+    
+            
+          
+        },
+        
+        {
+            id:1,
+            serviceName:"Design workshop",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                    
+                },
+            ],
+    
+            
+          
+        },
+        {
+            id:1,
+            serviceName:"Web design",
+            serviceTeam:[
+                {
+                    name:"By Jessica Gutierrez",
+                    servicePosition:"Web Developer",
+                    
+                },
+            ],
+    
+            
+          
+        },
+    ]
   return (
    <>
    <section id='services'className='serviceCard'>

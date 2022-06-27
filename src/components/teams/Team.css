@@ -62,6 +62,13 @@
     opacity: 1;
 }
 
+.t-btn:hover{
+    background-color: #fff;
+    color: #1eb2a6;
+}
+
+
+
 /* 
 
 @media all and (min-width: 768px) and (max-width: 1024px) {

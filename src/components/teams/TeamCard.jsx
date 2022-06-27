@@ -24,6 +24,7 @@ const TeamCard = () => {
          <div className="details">
                 <h2>{val.name}</h2>
                 <p>{val.work}</p>
+                <a href={val.port}  rel="noopener noreferrer" target='_blank'><button className='t-btn'>View Portfolio</button></a>
             </div>
     </div>
   ))}

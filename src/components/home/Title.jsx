@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./home.css"
 const Title = ({subtitle,title,Mtitle}) => {
   return (
     <div id = 'heading'>

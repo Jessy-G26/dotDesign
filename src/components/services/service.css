@@ -103,6 +103,21 @@
     .serviceCard .img{
         display: none;
     }
+
+    .serviceCard .container .items{
+        width: 100%;
+    }
+  
+
+    .serviceCard .grid2{
+        padding: 20px 0;
+        height: auto;
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);  
+    }
+
+   
 }
 /*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
 

@@ -16,7 +16,7 @@ const AboutCard = () => {
             <div className="right row">
                 <Title subtitle={'LEARN ANYTHING'} title={'Benefits of UI/UX design you will get '}/>
               
-            <div className="items">
+            <div className="items" >
                 {homeAbout.map((val)=>(
                     <div className="item flex">
                         <div className="img">
@@ -27,6 +27,7 @@ const AboutCard = () => {
                         </div>
                     </div>
                 ))}
+                
             </div>
             </div>
         </div>
