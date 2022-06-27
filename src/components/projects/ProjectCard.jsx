@@ -61,7 +61,7 @@ const ProjectCard = () => {
              <div className="projectItem_img">
               <img src={val.cover} alt="" />
              </div>
-             <a href={val.demo} target='_blank'><button className='proj-btn'>View Demo</button></a>
+             <a href={val.demo} target='_blank'  ><button className='proj-btn'>View Demo</button></a>
             </SwiperSlide>
           )
         })}

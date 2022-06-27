@@ -10,7 +10,7 @@ const Head = () => {
         <header>
              <nav className='flex'>
             <ul className={click ? "mobile-nav" : "flex" } onClick={()=> setClick(false)}>
-                <li> <a href="#"onClick={()=> setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>Home</a></li>
+                <li> <a href="/#"onClick={()=> setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>Home</a></li>
                 <li><a href="#about" onClick={()=> setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>About</a></li>
                 <li> <a href="#services" onClick={()=> setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}>Services</a></li>
                 <li> <a href="#projects" onClick={()=> setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}>Projects</a></li>

@@ -3,6 +3,7 @@ import "./contacts.css";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 const retrieveInfo = localStorage.getItem("informations")
   ? JSON.parse(localStorage.getItem("informations"))
   : [];
@@ -26,6 +27,9 @@ const Contact = () => {
     e.preventDefault();
     const information = { name, email, message };
     setAllInfo([...allInfo, information]);
+    if (email !== "" && message !== "") {
+      notify(true);
+    }
     emailjs
       .sendForm(
         "service_yd8q3rm",
@@ -109,7 +113,7 @@ const Contact = () => {
                 required
               ></textarea>
 
-              <button className="contact-btn" type="submit" onClick={notify}>
+              <button className="contact-btn" type="submit">
                 Send Message
               </button>
               <ToastContainer />
