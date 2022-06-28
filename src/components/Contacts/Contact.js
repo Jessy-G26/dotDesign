@@ -18,6 +18,12 @@ const Contact = () => {
 
   const form = useRef();
 
+  const handleReset = () => {
+    setName("");
+    setMessage("");
+    setEmail("");
+  };
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -29,9 +35,7 @@ const Contact = () => {
     setAllInfo([...allInfo, information]);
     if (email !== "" && message !== "") {
       notify(true);
-      setName("");
-      setEmail("");
-      setMessage("");
+      handleReset(true);
     }
     emailjs
       .sendForm(
